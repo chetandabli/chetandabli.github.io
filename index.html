@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chetan</title>
+    <title>Chetan Ram - Creative Web Designer</title>
+    <link rel="shortcut icon" href="./images/fevicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header class="header" id="nav-menu">
+        <p class="logo"><a href="#"><i class="fa-solid fa-less-than"></i> Chetan /<i class="fa-solid fa-greater-than"></i></a></p>
+        <div class="nav-menu-list">
+            <li class="nav-link home"><a href="#home">Home</a></li>
+            <li class="nav-link about"><a href="#about">About</a></li>
+            <li class="nav-link skills"><a href="#skills">Skills</a></li>
+            <li class="nav-link projects"><a href="#projects">Projects</a></li>
+            <li class="nav-link contact"><a href="#contact">Contact</a></li>
+            <li class="nav-link resume" id="resume-link-1"><a href="https://drive.google.com/file/d/188lGyqT4ZZ3LTYQ9EIKTVzoZKuqeabjy/view" target="_blank" id="resume-button-1">Resume <i class="fa-solid fa-file-arrow-down"></i></a></li>
+        </div>
+    </header>
+    <main id="home">
+        <div class="left-hero">
+            <h6>Hello, I’m</h6>
+            <h1 id="user-detail-name">CHETAN RAM</h1>
+            <h4 id="user-detail-intro">A PASSIONATE FULL STACK WEB DEVELOPER</h4>
+            <div class="social">
+                <button id="resume-button-2">RESUME</button>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="right-hero">
+            <img class="home-img" src="./images/profile.jpg" alt="profile">
+        </div>
+    </main>
+    <div id="about" class="about section">
+        <h2>About Me</h2>
+        <div>
+            <div id="leftabout" class="right-hero">
+                <img class="home-img" src="./images/profile.jpg" alt="profile">
+            </div>
+            <div id="rightabout">
+                <h3>Coding Is My Passion</h3>
+                <p>I am actively learning and developing my expertise in Node.js and MongoDB in order to create secure and high-quality products.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
