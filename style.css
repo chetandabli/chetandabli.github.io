@@ -145,7 +145,7 @@ button{
 .home-img{
     height: 80%;
 }
-#resume-button-2{
+#resume-link-2{
     margin: 30px 20px 30px 0;
     padding: 8px 25px;
     background-color: var(--main);
@@ -154,7 +154,7 @@ button{
     border-radius: 5px;
     font-weight: 600;
 }
-#resume-button-2:hover{
+#resume-link-2:hover{
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     cursor: pointer;
     color: var(--bg);
