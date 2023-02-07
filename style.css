@@ -55,19 +55,23 @@ p{
 
 /* header started basically navar */
 .header{
-    padding: 0 40px;
     height: 50px;
     background-color: var(--bg-header);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(41, 41, 41);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
 .logo{
     color: var(--header);
     font-size: 1.6vw;
     font-weight: 800;
     background-color: var(--bg-header);
+    margin-left: 3.5vw;
 }
 .logo>a>i{
     
@@ -86,6 +90,7 @@ p{
 .nav-menu-list{
     display: flex;
     background-color: var(--bg-header);
+    margin-right: 2vw;
 }
 .nav-link{
     padding: 0 12px;
@@ -124,6 +129,7 @@ button{
     grid-template-columns: repeat(2, 2fr);
     height: 400px;
     margin:3vw;
+    padding-top: 80px;
 }
 .left-hero{
     margin: auto;
@@ -204,4 +210,26 @@ button{
 }
 .hexa>img{
   width: 100%;
+}
+.react-activity-calendar{
+    text-align: center;
+}
+#stats{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+}
+#github-stats{
+    padding: 4vw;
+}
+#github-stats>h2{
+    padding-bottom: 10px;
+}
+#github-stats-card{
+    width: 33%;
+}
+#github-streak-stats{
+    width: 35%;
 }
