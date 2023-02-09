@@ -354,8 +354,9 @@ button{
 }
 /* github stats */
 #github-stats{
-    width: 95vw;
     margin: auto;
+    overflow: scroll;
+    padding: 5px;
 }
 #stats{
     text-align: center;
