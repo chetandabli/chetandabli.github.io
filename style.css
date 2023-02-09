@@ -63,7 +63,7 @@ p{
     border-bottom: 1px solid rgb(41, 41, 41);
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 5;
 }
 .logo{
@@ -90,7 +90,7 @@ p{
 .nav-menu-list{
     display: flex;
     background-color: var(--bg-header);
-    margin-right: 2vw;
+    padding-right: 2vw;
 }
 .nav-link{
     padding: 0 12px;
@@ -144,7 +144,9 @@ button{
 }
 .home-img{
     height: 80%;
+    box-shadow:#6D83F2 15px -15px 0 -3px;
 }
+
 #resume-link-2{
     background-color: var(--main); 
 }
@@ -217,7 +219,7 @@ button{
     gap: 25px;
 }
 .skills-card{
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -351,27 +353,18 @@ button{
     background-color: var(--bg-header);
 }
 /* github stats */
-.react-activity-calendar{
-    text-align: center;
+#github-stats{
+    width: 95vw;
+    margin: auto;
 }
 #stats{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    width: 100%;
-}
-#github-stats{
-    padding: 4vw;
 }
 #github-stats>h2{
     padding-bottom: 10px;
-}
-#github-stats-card{
-    width: 33%;
-}
-#github-streak-stats{
-    width: 35%;
 }
 
 /* contact me */
@@ -390,4 +383,48 @@ button{
 }
 .social1>i:hover{
     color: var(--snow-white);
+}
+
+#github-streak-stats{
+    display: none;
+}
+
+@media only screen and (max-width: 850px){
+    .nav-link{
+        display: none;
+    }
+    .resume{
+        display: block;
+    }
+    #home{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+    #home>div:nth-child(2) {
+        order: -1;
+    }
+    .left-hero{
+        width: 90%;
+        text-align: center;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about>div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        margin:3vw;
+    }
+    .right-hero{
+        display: none;
+    }
+    #skills-card-div{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 10px;
+    }
 }
