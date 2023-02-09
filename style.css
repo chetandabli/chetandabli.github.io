@@ -413,18 +413,51 @@ button{
         align-items: center;
         justify-content: center;
     }
+    #leftabout{
+        display: none;
+    }
     #about>div{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         height: auto;
         margin:3vw;
     }
-    .right-hero{
-        display: none;
-    }
     #skills-card-div{
         display: grid;
         grid-template-columns: repeat(3, 3fr);
         gap: 10px;
+    }
+    .project-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background: linear-gradient(
+    to right,
+    #121212 0%,
+    #121212 60%,
+    #121212 60%,
+    #121212 100%
+  ); 
+    }
+    .project-ss{
+        order: -1;
+        width: 100%;
+        margin: auto;
+    }
+    .project-card-dis{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .project-title{
+        margin-top: 20px;
+    }
+    .project-title, .project-description, .done_in, .project-tech-stack{
+        padding: 0 25px;
+    }
+    .project-buttons{
+        justify-content: center;
+    }
+    #rightabout{
+        text-align: center;
     }
 }
