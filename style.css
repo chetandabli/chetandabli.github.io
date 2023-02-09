@@ -53,6 +53,22 @@ li{
 p{
     font-size: 16px;
 }
+*::-webkit-scrollbar-track, .calendar::-webkit-scrollbar-track
+{
+  background-color: var(--bg-header);
+}
+
+*::-webkit-scrollbar, .calendar::-webkit-scrollbar
+{
+  width: 5px;
+  height: 5px;
+  background-color: var(--main);
+}
+
+*::-webkit-scrollbar-thumb, .calendar::-webkit-scrollbar-thumb
+{
+  background-color: var(--main);
+}
 
 /* header started basically navar */
 .header{
@@ -218,6 +234,7 @@ button{
     display: grid;
     grid-template-columns: repeat(6, 6fr);
     gap: 25px;
+    padding: 0 10px;
 }
 .skills-card{
     height: auto;
@@ -356,8 +373,10 @@ button{
 /* github stats */
 #github-stats{
     margin: auto;
-    overflow: scroll;
     padding: 5px;
+}
+.react-activity-calendar{
+    overflow: scroll;
 }
 #stats{
     text-align: center;
