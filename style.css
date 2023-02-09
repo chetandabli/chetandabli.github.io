@@ -69,21 +69,21 @@ p{
 }
 .logo{
     color: var(--header);
-    font-size: 1.6vw;
+    font-size: 22px;
     font-weight: 800;
     background-color: var(--bg-header);
     margin-left: 3.5vw;
 }
 .logo>a>i{
     
-    font-size: 1.6vw;
+    font-size: 22px;
     font-weight: 800;
     background-color: var(--bg-header);
     color: var(--header);
 }
 .logo>a{
     color: var(--header);
-    font-size: 1.6vw;
+    font-size: 22px;
     font-weight: 800;
     background-color: var(--bg-header);
     color:var(--main);
@@ -99,7 +99,7 @@ p{
     text-transform: uppercase;
 }
 .nav-link>a{
-    font-size: 1.2vw;
+    font-size: 16px;
     background-color: var(--bg-header);
 }
 .nav-link>a:hover, .nav-link:active{
@@ -389,6 +389,9 @@ button{
 }
 .media-icons{
     background-color: var(--bg-header);
+}
+.media-icons>a{
+   margin-right: 15px;
 }
 .social1{
     background-color: var(--bg-header);
