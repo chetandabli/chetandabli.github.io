@@ -27,18 +27,19 @@
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 42px;
     color: var(--snow-white);
 }
 h2{
     text-align: center;
+    padding: 20px 0;
 }
 h4{
-    font-size: 1.6vw;
+    font-size: 26px;
     color: var(--snow-white);
 }
 h6{
-    font-size: 1.4vw;
+    font-size: 20px;
     color: var(--snow-white);
 }
 a{
@@ -50,7 +51,7 @@ li{
     list-style: none;
 }
 p{
-    font-size: 1.2vw;
+    font-size: 16px;
 }
 
 /* header started basically navar */
@@ -376,11 +377,26 @@ button{
     justify-content: center;
     text-align: center;
 }
-
+.text{
+    padding: 20px;
+    background-color: var(--bg-header);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 20px;
+}
+.text>h2, .text>h3{
+    background-color: var(--bg-header);
+}
+.media-icons{
+    background-color: var(--bg-header);
+}
+.social1{
+    background-color: var(--bg-header);
+}
 .social1>i{
     color: var(--main);
+    background-color: var(--bg-header);
     font-size: 38px;
-    margin: 5px;
 }
 .social1>i:hover{
     color: var(--snow-white);
@@ -460,5 +476,8 @@ button{
     }
     #rightabout{
         text-align: center;
+    }
+    #stats{
+        flex-direction: column;
     }
 }
