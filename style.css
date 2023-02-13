@@ -396,20 +396,25 @@ button{
     text-align: center;
 }
 .text{
-    padding: 20px;
     background-color: var(--bg-header);
     border-radius: 10px;
     box-shadow: var(--box-shadow);
-    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 50%;
 }
 .text>h2, .text>h3{
+    margin: auto;
+    border-radius: 10px;
     background-color: var(--bg-header);
 }
 .media-icons{
     background-color: var(--bg-header);
+    margin: auto
 }
 .media-icons>a{
-   margin-right: 15px;
+   margin: 0 15px;
 }
 .social1{
     background-color: var(--bg-header);
@@ -523,11 +528,9 @@ button{
         flex-direction: column;
     }
     .text{
-        padding: 5px;
         background-color: var(--bg-header);
-        border-radius: 5px;
         box-shadow: var(--box-shadow);
-        margin-bottom: 20px;
+        width: 90%;
     }
     .text>h3{
         font-size: 14px;
