@@ -88,7 +88,7 @@ p{
     font-size: 22px;
     font-weight: 800;
     background-color: var(--bg-header);
-    margin-left: 3.5vw;
+    padding-left: 3.5vw;
 }
 .logo>a>i{
     
@@ -145,7 +145,7 @@ button{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     height: 400px;
-    margin:3vw;
+    /* margin:3vw; */
     padding-top: 80px;
 }
 .left-hero{
