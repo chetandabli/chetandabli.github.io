@@ -197,15 +197,15 @@ button{
 }
 
 /* about section */
-#about>h2{
-    padding-top: 20px;
+#about{
+    padding: 40px 0;
 }
 #about>div{
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 5vw;
     height: 400px;
-    margin:3vw;
+    margin:0 3vw;
 }
 #leftabout{
     width: 100%;
