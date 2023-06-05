@@ -16,3 +16,15 @@ document.getElementById("anthropologie").onclick = ()=>{
 document.getElementById("kindmeal").onclick = ()=>{
     window.open("https://beamish-salamander-14c16f.netlify.app/")
 }
+
+const navbarToggle = document.getElementById('navbar-toggle');
+const navbarMenu = document.getElementById('navbar-menu');
+
+navbarToggle.addEventListener('click', function() {
+  navbarMenu.classList.toggle('show');
+});
+document.addEventListener('click', function(event) {
+    if (!navbarToggle.contains(event.target) && !navbarMenu.contains(event.target)) {
+      navbarMenu.classList.remove('show');
+    }
+  });

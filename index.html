@@ -13,7 +13,7 @@
 <body>
     <header class="header" id="nav-menu">
         <p class="logo"><a href="#"><i class="fa-solid fa-less-than"></i> Chetan /<i class="fa-solid fa-greater-than"></i></a></p>
-        <div class="nav-menu-list">
+        <div class="nav-menu-list" id="navbar-menu">
             <li class="nav-link home"><a href="#home">Home</a></li>
             <li class="nav-link about"><a href="#about">About</a></li>
             <li class="nav-link skills"><a href="#skills">Skills</a></li>
@@ -21,6 +21,9 @@
             <li class="nav-link contact"><a href="#contact">Contact</a></li>
             <li class="nav-link resume" id="resume-button-1"><a href="Chetan_Ram_Resume.pdf" download="Chetan_Ram_Resume.pdf" id="resume-link-1">Resume <i class="fa-solid fa-file-arrow-down"></i></a></li>
         </div>
+        <button class="navbar-toggle" id="navbar-toggle">
+            <span class="navbar-toggle-icon"></span>
+        </button>
     </header>
     <main id="home">
         <div class="left-hero">
@@ -46,7 +49,7 @@
             </div>
             <div id="rightabout">
                 <h3 id="user-detail-name">Coding Is My Passion</h3>
-                <p id="user-detail-intro">I am actively learning and developing my expertise in Node.js, Express.js and MongoDB in order to create secure and high-quality products.<br>Currently Learning Full Stack Web Devlopment Full Time Course at Masai School. I've been building stuff on the web since 2019, I've made countless side projects and I also posses magical powers of using HTML, CSS and JavaScript to build delightful user interfaces.</p>
+                <p id="user-detail-intro">I am actively learning and developing my expertise in ReactJS, NodeJS, ExpressJS, MongoDB, MySQL, Redis, Socket.io in order to create secure and high-quality products.<br>My goal is to use technology to solve real-world problems and make a positive impact on people's lives. I'm grateful for the experiences that have shaped me, and I'm constantly learning and growing.</p>
                 <div class="social">
                     <a href="https://github.com/chetandabli" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/chetandabli/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -71,12 +74,16 @@
                 <p class="skills-card-name">JavaScript</p>
             </div>
             <div class="skills-card">
+                <img src="./images/reactjs-icon.svg" alt="" class="skills-card-img">
+                <p class="skills-card-name">ReactJS</p>
+            </div>
+            <div class="skills-card">
                 <img src="./images/nodejs-svgrepo-com.svg" alt="" class="skills-card-img">
                 <p class="skills-card-name">NodeJS</p>
             </div>
             <div class="skills-card">
                 <img src="./images/icons8-express-js.svg" alt="" class="skills-card-img">
-                <p class="skills-card-name">Express.js</p>
+                <p class="skills-card-name">ExpressJS</p>
             </div>
             <div class="skills-card">
                 <img src="./images/mongodb-logo-svgrepo-com.svg" alt="" class="skills-card-img">
@@ -87,24 +94,20 @@
                 <p class="skills-card-name">MySQL</p>
             </div>
             <div class="skills-card">
-                <img src="./images/aws-svgrepo-com.svg" alt="" class="skills-card-img">
-                <p class="skills-card-name">AWS</p>
+                <img src="./images/redis-icon.svg" alt="" class="skills-card-img">
+                <p class="skills-card-name">Redis</p>
+            </div>
+            <div class="skills-card">
+                <img src="./images/typescriptlang-icon.svg" alt="" class="skills-card-img">
+                <p class="skills-card-name">TypeScript</p>
             </div>
             <div class="skills-card">
                 <img src="./images/npm-svgrepo-com.svg" alt="" class="skills-card-img">
                 <p class="skills-card-name">NPM</p>
             </div>
             <div class="skills-card">
-                <img src="./images/postman-icon-svgrepo-com.svg" alt="" class="skills-card-img">
-                <p class="skills-card-name">Postman</p>
-            </div>
-            <div class="skills-card">
-                <img src="./images/vs-code-svgrepo-com.svg" alt="" class="skills-card-img">
-                <p class="skills-card-name">VS Code</p>
-            </div>
-            <div class="skills-card">
-                <img src="./images/github-svgrepo-com.svg" alt="" class="skills-card-img">
-                <p class="skills-card-name">Github</p>
+                <img src="./images/api-svgrepo-com.svg" alt="" class="skills-card-img">
+                <p class="skills-card-name">RESTful API</p>
             </div>
         </div>
     </section>
