@@ -1,4 +1,4 @@
 Hey,
-I made my Portfolio using HTML, CSS and JavaScript.
+I made my Portfolio using HTML5, CSS and JavaScript.
 
 live link:- https://chetandabli.github.io/
