@@ -1,8 +1,10 @@
 document.getElementById("resume-link-2").onclick = ()=>{
-    window.open("https://drive.google.com/file/d/188lGyqT4ZZ3LTYQ9EIKTVzoZKuqeabjy/view")
+    // window.open()
+    console.log("yes")
 }
 document.getElementById("resume-link-1").onclick = ()=>{
-    window.open("https://drive.google.com/file/d/188lGyqT4ZZ3LTYQ9EIKTVzoZKuqeabjy/view")
+    // window.open()
+    console.log("yes")
 }
 document.getElementById("meetease").onclick = ()=>{
     window.open("https://easemeet.onrender.com/")
